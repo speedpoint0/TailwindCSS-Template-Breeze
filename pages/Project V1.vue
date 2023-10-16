@@ -133,37 +133,23 @@
 				</div>
 			</nav>
 
-			<!-- Hero Content -->
-			<div
-				class="relative z-10 mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24"
-			>
-				<!-- Component -->
-				<div class="mx-auto max-w-3xl text-center">
-					<h1
-						class="mb-3 font-[Gabarito,_sans-serif] text-4xl font-medium text-white md:text-6xl"
-					>
-						Product Designer, Explorer, and Storyteller
-					</h1>
-					<p class="mx-auto mb-10 max-w-[674px] text-lg text-[#acacaf]">
-						I'm James, a passionate blogger and explorer on a mission to share
-						captivating stories and experiences. Join me on my journey as I
-						traverse through life's adventures and uncover hidden gems.
-					</p>
-					<div class="flex flex-wrap justify-center gap-6">
-						<a
-							href="https://shade-flowspark.webflow.io/projects"
-							class="inline-block rounded-md border border-solid border-white bg-white px-6 py-4 text-lg font-bold text-[#171715] transition hover:border-[#171715] hover:bg-[#acacaf]"
-							>My Projects</a
-						>
-						<a
-							href="https://build.flowspark.co/components/shade/landing"
-							class="inline-block max-w-full rounded-md border border-solid border-white px-6 py-4 text-center text-lg font-bold text-white transition hover:border-[#171715] hover:bg-[#acacaf]"
-						>
-							<p>Clone&nbsp;More Components</p>
-						</a>
+			<header class="relative block bg-[#171715]">
+				<!-- Container -->
+				<div class="z-10 mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24">
+					<!-- Component -->
+					<div class="mx-auto w-full max-w-[640px] text-center text-white">
+						<h1 class="mb-10 text-3xl font-medium md:text-5xl">
+							Exploring Our Creative Project Portfolio
+						</h1>
+						<p class="mx-auto mb-10 max-w-[674px] text-lg text-[#acacaf]">
+							Step into a World of Creativity, Innovation, and Excellence as We
+							Showcase Our Diverse Range of Remarkable Projects, Each a
+							Testimony to Our Passion for Crafting Unique Solutions and
+							Delivering Unparalleled Results.
+						</p>
 					</div>
 				</div>
-			</div>
+			</header>
 
 			<!-- BG Image -->
 			<div class="absolute bottom-auto left-0 right-0 top-0 z-0">
@@ -175,144 +161,170 @@
 			</div>
 		</header>
 
-		<section class="bg-[#171715] text-white">
-			<!-- Container -->
-			<div
-				class="mx-auto w-full max-w-7xl px-5 py-12 md:px-10 md:py-16 lg:py-20"
-			>
-				<div class="flex flex-col gap-5 md:grid-cols-2 lg:flex-row">
-					<h2
-						class="min-w-[auto] text-3xl font-medium md:text-5xl lg:min-w-[320px]"
-					>
-						About
-					</h2>
-					<p class="text-lg text-[#acacaf]">
-						I'm a passionate blogger who loves to share my ideas and experiences
-						with the world. With a knack for storytelling and a curious mind, I
-						aim to provide engaging and informative content on a variety of
-						topics.
-					</p>
-				</div>
-			</div>
-		</section>
-
-		<section class="bg-[#171715] text-white">
+		<header class="bg-[#171715] text-white">
 			<!-- Container -->
 			<div
 				class="mx-auto w-full max-w-7xl px-5 py-12 md:px-10 md:py-16 lg:py-20"
 			>
 				<!-- Component -->
-				<div class="flex flex-col gap-5 md:flex-row">
-					<h2
-						class="min-w-[auto] text-3xl font-medium md:text-5xl lg:min-w-[320px]"
-					>
-						Blogs
+				<div class="flex flex-col gap-5 lg:flex-row">
+					<h2 class="text-3xl font-medium md:text-5xl lg:min-w-[320px]">
+						Projects
 					</h2>
-					<!-- Blog Items -->
-					<div class="flex flex-col gap-20">
+					<div class="flex flex-col gap-12">
 						<!-- Item -->
 						<div
-							class="flex flex-col items-stretch gap-6 overflow-hidden rounded-md p-6 hover:bg-[#1c1c1a] md:flex-row"
+							class="flex flex-col rounded-md bg-[#1c1c1a] p-8 text-white transition hover:bg-[#1c1c1a] sm:p-8 md:bg-transparent"
 						>
-							<div class="flex flex-col items-stretch justify-center">
-								<p class="mb-1">August 5, 2023</p>
-								<h3 class="mb-7 text-2xl font-medium text-white md:text-3xl">
-									Discovering the Wonders of Nature
-								</h3>
-								<p class="mb-7 text-lg text-[#acacaf]">
-									Embark on an enchanting journey through lush forests, serene
-									lakes, and breathtaking landscapes that will ignite your
-									wanderlust. Join me as we uncover the hidden gems of the
-									natural world, and let the beauty of nature inspire your soul.
-								</p>
-								<a
-									href="#"
-									class="flex max-w-full text-lg font-bold text-[#386eec]"
-								>
-									Read Blog
-								</a>
-							</div>
-							<a
-								href="#"
-								class="inline-block w-full max-w-[309px] flex-none overflow-hidden rounded-md max-[767px]:max-w-full md:w-1/2"
+							<div
+								class="relative mb-7 flex h-24 w-24 items-center justify-center"
 							>
+								<div
+									class="absolute h-4/5 w-[70%] rounded-full border border-solid border-white bg-[#386eec] px-6 py-4 font-bold blur-[10px]"
+								></div>
+								<div
+									class="relative z-10 flex h-full w-full items-center justify-center rounded-full bg-[#1c1c1a] text-white"
+								>
+									<img
+										alt=""
+										src="https://assets-global.website-files.com/6527d399daf0285f33717f7f/6527d399daf0285f33717f96_graphic%20design.svg"
+										class="inline-block h-16 w-16 rounded-full"
+									/>
+								</div>
+							</div>
+							<div class="mb-3 flex items-center gap-3 text-[#acacaf]">
 								<img
-									src="https://assets-global.website-files.com/6527d399daf0285f33717f7f/6527d399daf0285f33717f99_Blog%20Image.webp"
+									src="https://assets-global.website-files.com/6527d399daf0285f33717f7f/6527d399daf0285f33717f94_link.svg"
 									alt=""
-									class="inline-block h-full object-cover"
+									class="inline-block"
 								/>
-							</a>
+								<p>ecoscape.co</p>
+							</div>
+							<h3 class="mb-7 text-2xl font-medium md:text-3xl">
+								EcoScape Initiative
+							</h3>
+							<p class="text-lg text-[#acacaf]">
+								Dedicated to creating sustainable solutions that harmonize with
+								the environment, fostering a greener tomorrow and leaving a
+								positive legacy for generations to come.
+							</p>
 						</div>
 						<!-- Item -->
 						<div
-							class="flex flex-col items-stretch gap-6 overflow-hidden rounded-md p-6 hover:bg-[#1c1c1a] md:flex-row"
+							class="flex flex-col rounded-md bg-[#1c1c1a] p-8 text-white transition hover:bg-[#1c1c1a] sm:p-8 md:bg-transparent"
 						>
-							<div class="flex flex-col items-stretch justify-center">
-								<p class="mb-1">August 5, 2023</p>
-								<h3 class="mb-7 text-2xl font-medium text-white md:text-3xl">
-									Discovering the Wonders of Nature
-								</h3>
-								<p class="mb-7 text-lg text-[#acacaf]">
-									Embark on an enchanting journey through lush forests, serene
-									lakes, and breathtaking landscapes that will ignite your
-									wanderlust. Join me as we uncover the hidden gems of the
-									natural world, and let the beauty of nature inspire your soul.
-								</p>
-								<a
-									href="#"
-									class="flex max-w-full text-lg font-bold text-[#386eec]"
-								>
-									Read Blog
-								</a>
-							</div>
-							<a
-								href="#"
-								class="inline-block w-full max-w-[309px] flex-none overflow-hidden rounded-md max-[767px]:max-w-full md:w-1/2"
+							<div
+								class="relative mb-7 flex h-24 w-24 items-center justify-center"
 							>
+								<div
+									class="absolute h-4/5 w-[70%] rounded-full border border-solid border-white bg-[#386eec] px-6 py-4 font-bold blur-[10px]"
+								></div>
+								<div
+									class="relative z-10 flex h-full w-full items-center justify-center rounded-full bg-[#1c1c1a] text-white"
+								>
+									<img
+										alt=""
+										src="https://assets-global.website-files.com/6527d399daf0285f33717f7f/6527d399daf0285f33717f97_product%20design.svg"
+										class="inline-block h-16 w-16 rounded-full"
+									/>
+								</div>
+							</div>
+							<div class="mb-3 flex items-center gap-3 text-[#acacaf]">
 								<img
-									src="https://assets-global.website-files.com/6527d399daf0285f33717f7f/6527d399daf0285f33717f99_Blog%20Image.webp"
+									src="https://assets-global.website-files.com/6527d399daf0285f33717f7f/6527d399daf0285f33717f94_link.svg"
 									alt=""
-									class="inline-block h-full object-cover"
+									class="inline-block"
 								/>
-							</a>
+								<p>techfusionlabs.co</p>
+							</div>
+							<h3 class="mb-7 text-2xl font-medium md:text-3xl">
+								TechFusion Labs
+							</h3>
+							<p class="text-lg text-[#acacaf]">
+								Harnessing the power of interdisciplinary collaboration, we're
+								at the forefront of innovation, driving progress through the
+								seamless convergence of technology and creativity.
+							</p>
 						</div>
 						<!-- Item -->
 						<div
-							class="flex flex-col items-stretch gap-6 overflow-hidden rounded-md p-6 hover:bg-[#1c1c1a] md:flex-row"
+							class="flex flex-col rounded-md bg-[#1c1c1a] p-8 text-white transition hover:bg-[#1c1c1a] sm:p-8 md:bg-transparent"
 						>
-							<div class="flex flex-col items-stretch justify-center">
-								<p class="mb-1">August 5, 2023</p>
-								<h3 class="mb-7 text-2xl font-medium text-white md:text-3xl">
-									Discovering the Wonders of Nature
-								</h3>
-								<p class="mb-7 text-lg text-[#acacaf]">
-									Embark on an enchanting journey through lush forests, serene
-									lakes, and breathtaking landscapes that will ignite your
-									wanderlust. Join me as we uncover the hidden gems of the
-									natural world, and let the beauty of nature inspire your soul.
-								</p>
-								<a
-									href="#"
-									class="flex max-w-full text-lg font-bold text-[#386eec]"
-								>
-									Read Blog
-								</a>
-							</div>
-							<a
-								href="#"
-								class="inline-block w-full max-w-[309px] flex-none overflow-hidden rounded-md max-[767px]:max-w-full md:w-1/2"
+							<div
+								class="relative mb-7 flex h-24 w-24 items-center justify-center"
 							>
+								<div
+									class="absolute h-4/5 w-[70%] rounded-full border border-solid border-white bg-[#386eec] px-6 py-4 font-bold blur-[10px]"
+								></div>
+								<div
+									class="relative z-10 flex h-full w-full items-center justify-center rounded-full bg-[#1c1c1a] text-white"
+								>
+									<img
+										alt=""
+										src="https://assets-global.website-files.com/6527d399daf0285f33717f7f/6527d399daf0285f33717f98_consulting.svg"
+										class="inline-block h-16 w-16 rounded-full"
+									/>
+								</div>
+							</div>
+							<div class="mb-3 flex items-center gap-3 text-[#acacaf]">
 								<img
-									src="https://assets-global.website-files.com/6527d399daf0285f33717f7f/6527d399daf0285f33717f99_Blog%20Image.webp"
+									src="https://assets-global.website-files.com/6527d399daf0285f33717f7f/6527d399daf0285f33717f94_link.svg"
 									alt=""
-									class="inline-block h-full object-cover"
+									class="inline-block"
 								/>
-							</a>
+								<p>artistry.co</p>
+							</div>
+							<h3 class="mb-7 text-2xl font-medium md:text-3xl">
+								Artistry in Motion
+							</h3>
+							<p class="text-lg text-[#acacaf]">
+								Our commitment to turning creative concepts into captivating,
+								immersive experiences fuels our passion for pushing boundaries
+								and redefining the possibilities of art and technology.
+							</p>
+						</div>
+						<!-- Item -->
+						<div
+							class="flex flex-col rounded-md bg-[#1c1c1a] p-8 text-white transition hover:bg-[#1c1c1a] sm:p-8 md:bg-transparent"
+						>
+							<div
+								class="relative mb-7 flex h-24 w-24 items-center justify-center"
+							>
+								<div
+									class="absolute h-4/5 w-[70%] rounded-full border border-solid border-white bg-[#386eec] px-6 py-4 font-bold blur-[10px]"
+								></div>
+								<div
+									class="relative z-10 flex h-full w-full items-center justify-center rounded-full bg-[#1c1c1a] text-white"
+								>
+									<img
+										alt=""
+										src="https://assets-global.website-files.com/6527d399daf0285f33717f7f/6527d399daf0285f33717f95_website%20design.svg"
+										class="inline-block h-16 w-16 rounded-full"
+									/>
+								</div>
+							</div>
+							<div class="mb-3 flex items-center gap-3 text-[#acacaf]">
+								<img
+									src="https://assets-global.website-files.com/6527d399daf0285f33717f7f/6527d399daf0285f33717f94_link.svg"
+									alt=""
+									class="inline-block"
+								/>
+								<p>urban.co</p>
+							</div>
+							<h3 class="mb-7 text-2xl font-medium md:text-3xl">
+								Urban Renewal Revival
+							</h3>
+							<p class="text-lg text-[#acacaf]">
+								Transforming urban landscapes and breathing new life into
+								communities through thoughtful design and sustainable
+								development, we're committed to revitalizing cities, one project
+								at a time.
+							</p>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
+		</header>
 
 		<section class="bg-[#171715]">
 			<!-- Container -->
