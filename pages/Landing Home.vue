@@ -64,7 +64,7 @@
 									</a>
 									<a
 										class="flex grow flex-col rounded-lg px-5 py-2 xl:px-8"
-										href="https://tailwind-css-template-shade.vercel.app/Project%V2"
+										href="https://tailwind-css-template-shade.vercel.app/Project%20V2"
 									>
 										<!-- TEXT -->
 										<h2 class="font-inter mb-1 text-md font-normal">
