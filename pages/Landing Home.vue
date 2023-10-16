@@ -74,7 +74,7 @@
 								</div>
 							</div>
 							<a
-								href="https://tailwind-css-template-shade.vercel.app/Landing%20Home%V2"
+								href="https://tailwind-css-template-shade.vercel.app/Landing%20Home%20V2"
 								class="pb-8 text-lg text-white transition hover:text-[#acacaf] lg:px-6 lg:py-4 lg:pb-0"
 								>Home V2</a
 							>
@@ -226,7 +226,7 @@
 									natural world, and let the beauty of nature inspire your soul.
 								</p>
 								<a
-									href="#"
+									href="https://tailwind-css-template-shade.vercel.app/Blog%20Post%20V1"
 									class="flex max-w-full text-lg font-bold text-[#386eec]"
 								>
 									Read Blog
@@ -259,7 +259,7 @@
 									natural world, and let the beauty of nature inspire your soul.
 								</p>
 								<a
-									href="#"
+									href="https://tailwind-css-template-shade.vercel.app/Blog%20Post%20V1"
 									class="flex max-w-full text-lg font-bold text-[#386eec]"
 								>
 									Read Blog
@@ -292,7 +292,7 @@
 									natural world, and let the beauty of nature inspire your soul.
 								</p>
 								<a
-									href="#"
+									href="https://tailwind-css-template-shade.vercel.app/Blog%20Post%20V1"
 									class="flex max-w-full text-lg font-bold text-[#386eec]"
 								>
 									Read Blog
@@ -335,15 +335,20 @@
 					<!-- CTA Button -->
 					<div class="flex flex-wrap justify-center gap-6">
 						<a
-							href="https://portfolio-blogging-templa-aec2dc26026ed.webflow.io/projects-v1"
+							target="_blank"
+							href="https://tailspark.co/"
 							class="inline-block rounded-md border border-solid border-white bg-white px-6 py-4 text-center text-lg font-bold text-[#171715] transition hover:border-[#171715] hover:bg-[#acacaf]"
-							>View my Portfolio</a
+							>Copy 300+ Components</a
 						>
-						<a href="https://www.flowspark.co/" class="inline-block max-w-full">
+						<a
+							target="_blank"
+							href="https://www.flowspark.co/design"
+							class="inline-block max-w-full"
+						>
 							<div
 								class="rounded-md border border-solid border-white px-6 py-4 text-center text-lg font-bold text-white transition hover:border-[#171715] hover:bg-[#acacaf]"
 							>
-								<p>Get In Touch</p>
+								<p>Get Custom Designs</p>
 							</div>
 						</a>
 					</div>
@@ -360,29 +365,30 @@
 						class="text-center font-semibold max-[991px]:ml-0 max-[991px]:mr-0 max-[991px]:py-1"
 					>
 						<a
-							href="#"
+							href="https://tailwind-css-template-shade.vercel.app/Landing%20Home"
+							class="px-6 py-2 font-normal transition hover:text-[#acacaf]"
+							>Home</a
+						>
+						<a
+							href="https://tailwind-css-template-shade.vercel.app/Blog%20Post%20V1"
+							class="px-6 py-2 font-normal transition hover:text-[#acacaf]"
+							>Blog Post V1</a
+						>
+						<a
+							href="https://tailwind-css-template-shade.vercel.app/Blog%20Post%20V2"
+							class="px-6 py-2 font-normal transition hover:text-[#acacaf]"
+							>Blog Post V2</a
+						>
+						<a
+							href="https://tailwind-css-template-shade.vercel.app/Services"
+							class="px-6 py-2 font-normal transition hover:text-[#acacaf]"
+							>Services</a
+						>
+
+						<a
+							href="https://tailwind-css-template-shade.vercel.app/About"
 							class="px-6 py-2 font-normal transition hover:text-[#acacaf]"
 							>About</a
-						>
-						<a
-							href="#"
-							class="px-6 py-2 font-normal transition hover:text-[#acacaf]"
-							>Features</a
-						>
-						<a
-							href="#"
-							class="px-6 py-2 font-normal transition hover:text-[#acacaf]"
-							>Works</a
-						>
-						<a
-							href="#"
-							class="px-6 py-2 font-normal transition hover:text-[#acacaf]"
-							>Support</a
-						>
-						<a
-							href="#"
-							class="px-6 py-2 font-normal transition hover:text-[#acacaf]"
-							>Help</a
 						>
 					</div>
 					<div

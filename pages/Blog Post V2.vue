@@ -1,5 +1,5 @@
 <template>
-	<div class="overflow-hidden">
+	<div class="">
 		<header class="relative bg-[#171715]">
 			<!-- Navbar Dropdown 1 row -->
 			<nav class="text-white lg:px-10 lg:py-7 z-[100] relative">
@@ -133,24 +133,6 @@
 				</div>
 			</nav>
 
-			<header class="relative block bg-[#171715]">
-				<!-- Container -->
-				<div class="z-10 mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24">
-					<!-- Component -->
-					<div class="mx-auto w-full max-w-[640px] text-center text-white">
-						<h1 class="mb-10 text-3xl font-medium md:text-5xl">
-							Exploring Our Creative Project Portfolio
-						</h1>
-						<p class="mx-auto mb-10 max-w-[674px] text-lg text-[#acacaf]">
-							Step into a World of Creativity, Innovation, and Excellence as We
-							Showcase Our Diverse Range of Remarkable Projects, Each a
-							Testimony to Our Passion for Crafting Unique Solutions and
-							Delivering Unparalleled Results.
-						</p>
-					</div>
-				</div>
-			</header>
-
 			<!-- BG Image -->
 			<div class="absolute bottom-auto left-0 right-0 top-0 z-0">
 				<img
@@ -164,179 +146,98 @@
 		<section class="bg-[#171715] text-white">
 			<!-- Container -->
 			<div
-				class="mx-auto w-full max-w-7xl px-5 py-12 md:px-10 md:py-16 lg:pb-20 pt-0"
+				class="mx-auto w-full max-w-7xl px-5 py-12 md:px-10 md:py-16 lg:py-20"
 			>
-				<!-- Component -->
-				<div
-					class="grid grid-cols-1 gap-8 sm:gap-12 md:grid-cols-2 lg:grid-cols-3"
-				>
-					<!-- Item -->
-					<a
-						href="#"
-						class="flex flex-col rounded-md bg-[#1c1c1a] p-8 transition hover:bg-[#1c1c1a] sm:p-8 md:bg-transparent"
-					>
-						<div class="mb-7 h-24 w-24">
-							<div
-								class="relative z-10 flex h-full w-full items-center justify-center rounded-full bg-[#1c1c1a] text-white"
-							>
-								<img
-									alt=""
-									src="https://assets-global.website-files.com/6527d399daf0285f33717f7f/6527d399daf0285f33717f96_graphic%20design.svg"
-									class="inline-block h-16 w-16 rounded-full"
-								/>
-							</div>
-						</div>
-						<div class="mb-3 flex items-center gap-3 text-[#acacaf]">
-							<img
-								src="https://assets-global.website-files.com/6527d399daf0285f33717f7f/6527d399daf0285f33717f94_link.svg"
-								alt=""
-								class="inline-block"
-							/>
-							<p>ecoscape.co</p>
-						</div>
-						<h3 class="mb-7 text-2xl font-medium md:text-3xl">
-							EcoScape Initiative
-						</h3>
-						<p class="text-lg text-[#acacaf]">
-							Dedicated to creating sustainable solutions that harmonize with
-							the environment, fostering a greener tomorrow and leaving a
-							positive legacy for generations to come.
-						</p>
-					</a>
-					<!-- Item -->
-					<a
-						href="#"
-						class="flex flex-col rounded-md bg-[#1c1c1a] p-8 transition hover:bg-[#1c1c1a] sm:p-8 md:bg-transparent"
-					>
-						<div class="mb-7 h-24 w-24">
-							<div
-								class="relative z-10 flex h-full w-full items-center justify-center rounded-full bg-[#1c1c1a] text-white"
-							>
-								<img
-									alt=""
-									src="https://assets-global.website-files.com/6527d399daf0285f33717f7f/6527d399daf0285f33717f97_product%20design.svg"
-									class="inline-block h-16 w-16 rounded-full"
-								/>
-							</div>
-						</div>
-						<div class="mb-3 flex items-center gap-3 text-[#acacaf]">
-							<img
-								src="https://assets-global.website-files.com/6527d399daf0285f33717f7f/6527d399daf0285f33717f94_link.svg"
-								alt=""
-								class="inline-block"
-							/>
-							<p>techfusionlabs.co</p>
-						</div>
-						<h3 class="mb-7 text-2xl font-medium md:text-3xl">
-							TechFusion Labs
-						</h3>
-						<p class="text-lg text-[#acacaf]">
-							Harnessing the power of interdisciplinary collaboration, we're at
-							the forefront of innovation, driving progress through the seamless
-							convergence of technology and creativity.
-						</p>
-					</a>
-					<!-- Item -->
-					<a
-						href="#"
-						class="flex flex-col rounded-md bg-[#1c1c1a] p-8 transition hover:bg-[#1c1c1a] sm:p-8 md:bg-transparent"
-					>
-						<div class="mb-7 h-24 w-24">
-							<div
-								class="relative z-10 flex h-full w-full items-center justify-center rounded-full bg-[#1c1c1a] text-white"
-							>
-								<img
-									alt=""
-									src="https://assets-global.website-files.com/6527d399daf0285f33717f7f/6527d399daf0285f33717f98_consulting.svg"
-									class="inline-block h-16 w-16 rounded-full"
-								/>
-							</div>
-						</div>
-						<div class="mb-3 flex items-center gap-3 text-[#acacaf]">
-							<img
-								src="https://assets-global.website-files.com/6527d399daf0285f33717f7f/6527d399daf0285f33717f94_link.svg"
-								alt=""
-								class="inline-block"
-							/>
-							<p>artistry.co</p>
-						</div>
-						<h3 class="mb-7 text-2xl font-medium md:text-3xl">
-							Artistry in Motion
-						</h3>
-						<p class="text-lg text-[#acacaf]">
-							Our commitment to turning creative concepts into captivating,
-							immersive experiences fuels our passion for pushing boundaries and
-							redefining the possibilities of art and technology.
-						</p>
-					</a>
-					<!-- Item -->
-					<a
-						href="#"
-						class="flex flex-col rounded-md bg-[#1c1c1a] p-8 transition hover:bg-[#1c1c1a] sm:p-8 md:bg-transparent"
-					>
-						<div class="mb-7 h-24 w-24">
-							<div
-								class="relative z-10 flex h-full w-full items-center justify-center rounded-full bg-[#1c1c1a] text-white"
-							>
-								<img
-									alt=""
-									src="https://assets-global.website-files.com/6527d399daf0285f33717f7f/6527d399daf0285f33717f95_website%20design.svg"
-									class="inline-block h-16 w-16 rounded-full"
-								/>
-							</div>
-						</div>
-						<div class="mb-3 flex items-center gap-3 text-[#acacaf]">
-							<img
-								src="https://assets-global.website-files.com/6527d399daf0285f33717f7f/6527d399daf0285f33717f94_link.svg"
-								alt=""
-								class="inline-block"
-							/>
-							<p>urban.co</p>
-						</div>
-						<h3 class="mb-7 text-2xl font-medium md:text-3xl">
-							Urban Renewal Revival
-						</h3>
-						<p class="text-lg text-[#acacaf]">
-							Transforming urban landscapes and breathing new life into
-							communities through thoughtful design and sustainable development,
-							we're committed to revitalizing cities, one project at a time.
-						</p>
-					</a>
-					<!-- Item -->
-					<a
-						href="#"
-						class="flex flex-col rounded-md bg-[#1c1c1a] p-8 transition hover:bg-[#1c1c1a] sm:p-8 md:bg-transparent"
-					>
-						<div class="mb-7 h-24 w-24">
-							<div
-								class="relative z-10 flex h-full w-full items-center justify-center rounded-full bg-[#1c1c1a] text-white"
-							>
-								<img
-									alt=""
-									src="https://assets-global.website-files.com/6527d399daf0285f33717f7f/6527d399daf0285f33717f96_graphic%20design.svg"
-									class="inline-block h-16 w-16 rounded-full"
-								/>
-							</div>
-						</div>
-						<div class="mb-3 flex items-center gap-3 text-[#acacaf]">
-							<img
-								src="https://assets-global.website-files.com/6527d399daf0285f33717f7f/6527d399daf0285f33717f94_link.svg"
-								alt=""
-								class="inline-block"
-							/>
-							<p>healthcareinno.co</p>
-						</div>
-						<h3
-							class="mb-7 font-[Gabarito,_sans-serif] text-2xl font-medium md:text-3xl"
-						>
-							Healthcare Innovators
-						</h3>
-						<p class="text-lg text-[#acacaf]">
-							Pioneering the healthcare landscape with cutting-edge solutions,
-							we're dedicated to enhancing patient care, streamlining processes,
-							and shaping the future of healthcare for the better.
-						</p>
-					</a>
+				<!-- Heading Content -->
+				<div class="mb-10">
+					<p class="mb-10 text-[#acacaf]">September 5, 2023</p>
+					<h1 class="mb-10 max-w-[674px] text-4xl font-medium md:text-6xl">
+						Discovering the Wonders of Nature
+					</h1>
+					<p class="mb-20 text-lg text-[#acacaf]">
+						Embark on an enchanting journey through lush forests, serene lakes,
+						and breathtaking landscapes that will ignite your wanderlust. Join
+						me as we uncover the hidden gems of the natural world, and let the
+						beauty of nature inspire your soul.
+					</p>
+					<img
+						class="inline-block h-auto w-full rounded-lg object-cover lg:h-[568px]"
+						src="https://assets-global.website-files.com/6527d399daf0285f33717f7f/6527d399daf0285f33717f99_Blog%20Image.webp"
+						alt=""
+					/>
+				</div>
+				<div class="p-4">
+					<h3 class="mb-6 mt-6 text-2xl font-medium md:text-xl">
+						Introduction
+					</h3>
+					<p class="mb-10 text-lg text-white">
+						Nature, with its awe-inspiring beauty and boundless wonders, has
+						been captivating the human spirit for centuries. From the dense,
+						emerald canopies of ancient forests to the tranquil, mirror-like
+						surfaces of pristine lakes, the natural world holds secrets waiting
+						to be discovered. In this journey, we invite you to explore the
+						breathtaking landscapes and hidden treasures that Mother Earth has
+						generously shared with us. So, pack your virtual bags, leave behind
+						the urban hustle, and embark on an adventure that will ignite your
+						wanderlust and inspire your soul.
+					</p>
+					<h3 class="mb-6 mt-6 text-2xl font-medium md:text-xl">
+						The Enchanted Forests
+					</h3>
+					<p class="mb-10 text-lg text-white">The Forest's Mystical Aura</p>
+					<p class="mb-10 text-lg text-white">
+						As we step into the heart of the forest, we are greeted by towering
+						trees that have stood the test of time. In "The Enchanted Forests,"
+						we delve into the mysteries of these ancient woodlands, where every
+						rustle of leaves and chirping of birds tells a story. From the
+						vibrant undergrowth to the peaceful solitude found within, this
+						chapter explores the unparalleled beauty and biodiversity that
+						thrive in the depths of the forest.
+					</p>
+					<h3 class="mb-6 mt-6 text-2xl font-medium md:text-xl">
+						Lakes of Tranquility
+					</h3>
+					<p class="mb-10 text-lg text-white">
+						Reflecting the Serenity of Nature's Mirrors
+					</p>
+					<p class="mb-10 text-lg text-white">
+						In "Lakes of Tranquility," we shift our focus to the serene waters
+						that mirror the world above. These pristine lakes are more than just
+						bodies of water; they are natural works of art that calm the soul
+						and offer a glimpse into the sublime. Join us as we journey to
+						crystal-clear lakes, where the reflection of the surrounding
+						landscapes creates a symphony of colors and shapes that will leave
+						you breathless.
+					</p>
+					<h3 class="mb-6 mt-6 text-2xl font-medium md:text-xl">
+						Majestic Mountainscapes
+					</h3>
+					<p class="mb-10 text-lg text-white">
+						Reaching for the Sky: The Drama of High Peaks
+					</p>
+					<p class="mb-10 text-lg text-white">
+						In "Majestic Mountainscapes," we climb to new heights, exploring the
+						grandeur of rugged peaks and awe-inspiring vistas. These giants of
+						the Earth have been the backdrop for countless adventures, and their
+						towering presence continues to inspire explorers, artists, and
+						dreamers alike. Discover the stories behind the world's most iconic
+						mountains and the sense of wonder they evoke.
+					</p>
+					<h3 class="mb-6 mt-6 text-2xl font-medium md:text-xl">Conclusion</h3>
+					<p class="mb-10 text-lg text-white">Embracing the Beauty of Nature</p>
+					<p class="mb-10 text-lg text-white">
+						As our adventure through the wonders of nature comes to a close, we
+						are reminded of the profound connection between the natural world
+						and the human spirit. The landscapes, forests, lakes, mountains, and
+						coastlines we've explored in this journey are not just places; they
+						are sources of inspiration, wonder, and renewal. The beauty of
+						nature has the power to ignite our wanderlust, awaken our senses,
+						and inspire our souls. So, whether you're an intrepid explorer or an
+						armchair traveler, may this journey serve as a reminder to cherish
+						and protect the incredible wonders that surround us. Let the beauty
+						of nature be your guide as you continue to discover, explore, and
+						appreciate the world in all its natural splendor.
+					</p>
 				</div>
 			</div>
 		</section>
