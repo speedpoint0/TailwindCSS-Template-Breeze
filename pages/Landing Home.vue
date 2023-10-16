@@ -140,11 +140,13 @@
 				<!-- Component -->
 				<div class="mx-auto max-w-3xl text-center">
 					<h1
-						class="mb-3 font-[Gabarito,_sans-serif] text-4xl font-medium text-white md:text-6xl"
+						class="mb-3 text-4xl font-medium text-white md:text-6xl font-gabarito"
 					>
 						Product Designer, Explorer, and Storyteller
 					</h1>
-					<p class="mx-auto mb-10 max-w-[674px] text-lg text-[#acacaf]">
+					<p
+						class="mx-auto mb-10 max-w-[674px] text-lg text-[#acacaf] font-sans"
+					>
 						I'm James, a passionate blogger and explorer on a mission to share
 						captivating stories and experiences. Join me on my journey as I
 						traverse through life's adventures and uncover hidden gems.
