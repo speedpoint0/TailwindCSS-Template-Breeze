@@ -8,7 +8,7 @@ module.exports = {
 	],
 	theme: {
 		fontFamily: {
-			sans: ["Plus Jakarta Sans", "sans-serif"],
+			sans: ["Sulphur Point", "sans-serif"],
 			gabarito: ["Gabarito", "sans-serif"],
 		},
 	},
