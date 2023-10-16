@@ -1,5 +1,9 @@
 module.exports = {
-	content: [],
+	content: [
+		"./pages/**/*.vue",
+		"./plugins/**/*.{js,ts}",
+		"./nuxt.config.{js,ts}",
+	],
 	theme: {
 		fontFamily: {
 			sans: ["Sulphur Point", "sans-serif"],
