@@ -6,7 +6,7 @@ module.exports = {
 	],
 	theme: {
 		fontFamily: {
-			sans: ["Sulphur Point", "sans-serif"],
+			sulphur: ["Sulphur Point", "sans-serif"],
 			gabarito: ["Gabarito", "sans-serif"],
 		},
 	},

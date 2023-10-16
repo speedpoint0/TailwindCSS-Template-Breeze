@@ -182,11 +182,11 @@
 			>
 				<div class="flex flex-col gap-5 md:grid-cols-2 lg:flex-row">
 					<h2
-						class="min-w-[auto] text-3xl font-medium md:text-5xl lg:min-w-[320px]"
+						class="min-w-[auto] text-3xl font-medium md:text-5xl lg:min-w-[320px] font-gabarito"
 					>
 						About
 					</h2>
-					<p class="text-lg text-[#acacaf]">
+					<p class="text-lg text-[#acacaf] font-sulphur">
 						I'm a passionate blogger who loves to share my ideas and experiences
 						with the world. With a knack for storytelling and a curious mind, I
 						aim to provide engaging and informative content on a variety of
