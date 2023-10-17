@@ -7,9 +7,11 @@ module.exports = {
 		"./nuxt.config.{js,ts}",
 	],
 	theme: {
-		fontFamily: {
-			sans: ["Sulphur Point", "sans-serif"],
-			gabarito: ["Gabarito", "sans-serif"],
+		extend: {
+			fontFamily: {
+				sans: ["Sulphur Point", "sans-serif"],
+				gabarito: ["Gabarito", "sans-serif"],
+			},
 		},
 	},
 };
