@@ -5,5 +5,11 @@
 @tailwind utilities;
 
 @layer base {
+  p, a {
+    font-family: 'Sulphur Point', sans-serif;
+  }
 
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Gabarito', sans-serif;
+  }
 }
