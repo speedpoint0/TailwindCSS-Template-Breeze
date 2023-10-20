@@ -200,7 +200,6 @@
 								class="flex max-w-[300px] flex-row items-center border-2 border-black bg-white px-8 py-4 font-semibold text-black transition [box-shadow:rgb(0,_0,0)-8px_8px] hover:[box-shadow:rgb(171,_196,_245)_0px_0px]"
 							>
 								<p class="mr-6 font-bold">Free Components</p>
-								<p class="mr-6 font-bold">Free Components</p>
 								<svg
 									fill="currentColor"
 									class="h-4 w-4 flex-none"
