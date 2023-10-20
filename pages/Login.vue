@@ -37,7 +37,7 @@
 									href="#"
 									class="flex flex-row rounded-lg lg:px-6 lg:py-4 lg:hover:bg-gray-50 lg:hover:text-gray-800"
 									x-bind:class="menuOne ? 'text-gray-800 lg:border lg:border-gray-600 lg:bg-gray-50' : 'text-black lg:border lg:border-white' "
-									>Component
+									>Landing Pages
 									<svg
 										x-bind:class="menuOne ? 'rotate-180' : 'rotate-0' "
 										class="fill-current transition"
