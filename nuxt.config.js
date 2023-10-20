@@ -6,7 +6,7 @@ export default {
 	},
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
-		title: "Shade",
+		title: "Breeze",
 		htmlAttrs: {
 			lang: "en",
 		},
@@ -26,7 +26,7 @@ export default {
 			{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
 			{
 				rel: "stylesheet",
-				href: "https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700&family=Sulphur+Point:wght@300;400;700&display=swap",
+				href: "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,700&display=swap",
 			},
 		],
 	},
