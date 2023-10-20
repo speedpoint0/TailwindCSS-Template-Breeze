@@ -58,7 +58,7 @@
 									<!-- ITEM -->
 									<a
 										class="flex grow flex-col rounded-lg px-5 py-5 hover:bg-gray-50 lg:basis-[248px] xl:px-8"
-										href="#"
+										href="https://tailwind-css-template-breeze.vercel.app/Landing%20Home"
 									>
 										<!-- ICON -->
 										<div class="relative">
@@ -81,7 +81,7 @@
 										<h2
 											class="font-inter mb-1 mt-5 text-lg font-medium text-[#160042]"
 										>
-											Analytics
+											Landing 1
 										</h2>
 										<p
 											class="font-inter max-w-[250px] text-sm text-gray-500 lg:max-w-[400px]"
@@ -93,7 +93,7 @@
 									<!-- ITEM -->
 									<a
 										class="flex grow flex-col rounded-lg px-5 py-5 hover:bg-gray-50 lg:basis-[248px] xl:px-8"
-										href="#"
+										href="https://tailwind-css-template-breeze.vercel.app/Landing%20Home%20V2"
 									>
 										<!-- ICON -->
 										<div class="relative">
@@ -123,7 +123,7 @@
 										<h2
 											class="font-inter mb-1 mt-5 text-lg font-medium text-[#160042]"
 										>
-											Engagement
+											Landing V2
 										</h2>
 										<p
 											class="font-inter max-w-[250px] text-sm text-gray-500 lg:max-w-[400px]"
@@ -134,7 +134,7 @@
 									<!-- ITEM -->
 									<a
 										class="flex grow flex-col rounded-lg px-5 py-5 hover:bg-gray-50 lg:basis-[248px] xl:px-8"
-										href="#"
+										href="https://tailwind-css-template-breeze.vercel.app/Landing%20Home%20V3"
 									>
 										<!-- ICON -->
 										<div class="relative">
@@ -162,7 +162,7 @@
 										<h2
 											class="font-inter mb-1 mt-5 text-lg font-medium text-[#160042]"
 										>
-											Automations
+											Landing V3
 										</h2>
 										<p
 											class="font-inter max-w-[250px] text-sm text-gray-500 lg:max-w-[400px]"
@@ -174,36 +174,31 @@
 								</div>
 							</div>
 							<a
-								href="#"
+								href="https://tailwind-css-template-breeze.vercel.app/About"
 								class="font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:bg-gray-50 lg:hover:text-gray-800"
-								>Templates</a
+								>About</a
 							>
 							<a
-								href="#"
+								href="https://tailwind-css-template-breeze.vercel.app/Blog"
 								class="font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:bg-gray-50 lg:hover:text-gray-800"
-								>Pricing</a
-							>
-							<a
-								href="#"
-								class="font-inter lg: rounded-lg pb-8 lg:px-6 lg:py-4 lg:hover:bg-gray-50 lg:hover:text-gray-800"
-								>FAQs</a
+								>Blog</a
 							>
 						</div>
 						<!-- MENU CONTENT 2 -->
 						<div
-							class="flex flex-col space-y-8 lg:flex lg:flex-row lg:space-x-3 lg:space-y-0"
+							class="flex flex-col space-y-8 lg:flex lg:flex-row lg:space-x-3 lg:space-y-0 mt-8 lg:mt-0"
 							x-bind:class="isOpen ? 'show' : 'hidden'"
 						>
 							<a
-								href="#"
-								class="font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:bg-gray-50 lg:hover:text-gray-800"
+								href="https://tailwind-css-template-breeze.vercel.app/Login"
+								class="font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800"
 								>Sign Up</a
 							>
 							<a
 								href="#"
 								class="flex max-w-[300px] flex-row items-center border-2 border-black bg-white px-8 py-4 font-semibold text-black transition [box-shadow:rgb(0,_0,0)-8px_8px] hover:[box-shadow:rgb(171,_196,_245)_0px_0px]"
 							>
-								<p class="mr-6 font-bold">Get Started</p>
+								<p class="mr-6 font-bold">Free Components</p>
 								<svg
 									fill="currentColor"
 									class="h-4 w-4 flex-none"
