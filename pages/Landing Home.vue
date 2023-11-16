@@ -1114,19 +1114,35 @@
           <!-- FAQ Item -->
           <div
             class="mb-6 border border-solid border-[#dfdfdf] p-8 lg:max-w-xl"
+            x-data="{ open: false }"
           >
-            <div class="flex cursor-pointer justify-between">
+            <div
+              class="flex cursor-pointer justify-between"
+              x-on:click.prevent="open = !open"
+            >
               <p class="text-xl font-bold">
                 How this theme is different from others in market?
               </p>
               <div
                 class="relative ml-10 mt-1 flex h-5 w-5 items-center justify-center"
               >
-                <div class="absolute h-5 w-0.5 bg-[#276ef1]"></div>
+                <div
+                  x-bind:class="open ? 'transform rotate-90' : ''"
+                  class="absolute h-5 w-0.5 bg-[#276ef1] transition-transform"
+                ></div>
                 <div class="h-0.5 w-5 bg-[#276ef1]"></div>
               </div>
             </div>
-            <p class="mb-4 mt-4">
+            <p
+              class="mb-4 mt-4"
+              x-show="open"
+              x-transition:enter="transition ease-out duration-300"
+              x-transition:enter-start="transform translate-y--10 opacity-0"
+              x-transition:enter-end="transform translate-y-0 opacity-100"
+              x-transition:leave="transition ease-in duration-300"
+              x-transition:leave-start="transform translate-y-0 opacity-100"
+              x-transition:leave-end="transform translate-y--10 opacity-0"
+            >
               Pellentesque in nisi aliquet, pellentesque purus eget, imperdiet
               turpis. Fusce at enim quis neque viverra convallis. Vivamus ut
               elementum leo, eget tempus nisl. Sed viverra enim ac turpis
@@ -1138,19 +1154,35 @@
           <!-- FAQ Item -->
           <div
             class="mb-6 border border-solid border-[#dfdfdf] p-8 lg:max-w-xl"
+            x-data="{ open: false }"
           >
-            <div class="flex cursor-pointer justify-between">
+            <div
+              class="flex cursor-pointer justify-between"
+              x-on:click.prevent="open = !open"
+            >
               <p class="text-xl font-bold">
                 How this theme is different from others in market?
               </p>
               <div
                 class="relative ml-10 mt-1 flex h-5 w-5 items-center justify-center"
               >
-                <div class="absolute h-5 w-0.5 bg-[#276ef1]"></div>
+                <div
+                  x-bind:class="open ? 'transform rotate-90' : ''"
+                  class="absolute h-5 w-0.5 bg-[#276ef1] transition-transform"
+                ></div>
                 <div class="h-0.5 w-5 bg-[#276ef1]"></div>
               </div>
             </div>
-            <p class="mb-4 mt-4">
+            <p
+              class="mb-4 mt-4"
+              x-show="open"
+              x-transition:enter="transition ease-out duration-300"
+              x-transition:enter-start="transform translate-y--10 opacity-0"
+              x-transition:enter-end="transform translate-y-0 opacity-100"
+              x-transition:leave="transition ease-in duration-300"
+              x-transition:leave-start="transform translate-y-0 opacity-100"
+              x-transition:leave-end="transform translate-y--10 opacity-0"
+            >
               Pellentesque in nisi aliquet, pellentesque purus eget, imperdiet
               turpis. Fusce at enim quis neque viverra convallis. Vivamus ut
               elementum leo, eget tempus nisl. Sed viverra enim ac turpis
@@ -1162,19 +1194,35 @@
           <!-- FAQ Item -->
           <div
             class="mb-6 border border-solid border-[#dfdfdf] p-8 lg:max-w-xl"
+            x-data="{ open: false }"
           >
-            <div class="flex cursor-pointer justify-between">
+            <div
+              class="flex cursor-pointer justify-between"
+              x-on:click.prevent="open = !open"
+            >
               <p class="text-xl font-bold">
                 How this theme is different from others in market?
               </p>
               <div
                 class="relative ml-10 mt-1 flex h-5 w-5 items-center justify-center"
               >
-                <div class="absolute h-5 w-0.5 bg-[#276ef1]"></div>
+                <div
+                  x-bind:class="open ? 'transform rotate-90' : ''"
+                  class="absolute h-5 w-0.5 bg-[#276ef1] transition-transform"
+                ></div>
                 <div class="h-0.5 w-5 bg-[#276ef1]"></div>
               </div>
             </div>
-            <p class="mb-4 mt-4">
+            <p
+              class="mb-4 mt-4"
+              x-show="open"
+              x-transition:enter="transition ease-out duration-300"
+              x-transition:enter-start="transform translate-y--10 opacity-0"
+              x-transition:enter-end="transform translate-y-0 opacity-100"
+              x-transition:leave="transition ease-in duration-300"
+              x-transition:leave-start="transform translate-y-0 opacity-100"
+              x-transition:leave-end="transform translate-y--10 opacity-0"
+            >
               Pellentesque in nisi aliquet, pellentesque purus eget, imperdiet
               turpis. Fusce at enim quis neque viverra convallis. Vivamus ut
               elementum leo, eget tempus nisl. Sed viverra enim ac turpis
@@ -1186,19 +1234,35 @@
           <!-- FAQ Item -->
           <div
             class="mb-6 border border-solid border-[#dfdfdf] p-8 lg:max-w-xl"
+            x-data="{ open: false }"
           >
-            <div class="flex cursor-pointer justify-between">
+            <div
+              class="flex cursor-pointer justify-between"
+              x-on:click.prevent="open = !open"
+            >
               <p class="text-xl font-bold">
                 How this theme is different from others in market?
               </p>
               <div
                 class="relative ml-10 mt-1 flex h-5 w-5 items-center justify-center"
               >
-                <div class="absolute h-5 w-0.5 bg-[#276ef1]"></div>
+                <div
+                  x-bind:class="open ? 'transform rotate-90' : ''"
+                  class="absolute h-5 w-0.5 bg-[#276ef1] transition-transform"
+                ></div>
                 <div class="h-0.5 w-5 bg-[#276ef1]"></div>
               </div>
             </div>
-            <p class="mb-4 mt-4">
+            <p
+              class="mb-4 mt-4"
+              x-show="open"
+              x-transition:enter="transition ease-out duration-300"
+              x-transition:enter-start="transform translate-y--10 opacity-0"
+              x-transition:enter-end="transform translate-y-0 opacity-100"
+              x-transition:leave="transition ease-in duration-300"
+              x-transition:leave-start="transform translate-y-0 opacity-100"
+              x-transition:leave-end="transform translate-y--10 opacity-0"
+            >
               Pellentesque in nisi aliquet, pellentesque purus eget, imperdiet
               turpis. Fusce at enim quis neque viverra convallis. Vivamus ut
               elementum leo, eget tempus nisl. Sed viverra enim ac turpis
@@ -1210,19 +1274,35 @@
           <!-- FAQ Item -->
           <div
             class="mb-6 border border-solid border-[#dfdfdf] p-8 lg:max-w-xl"
+            x-data="{ open: false }"
           >
-            <div class="flex cursor-pointer justify-between">
+            <div
+              class="flex cursor-pointer justify-between"
+              x-on:click.prevent="open = !open"
+            >
               <p class="text-xl font-bold">
                 How this theme is different from others in market?
               </p>
               <div
                 class="relative ml-10 mt-1 flex h-5 w-5 items-center justify-center"
               >
-                <div class="absolute h-5 w-0.5 bg-[#276ef1]"></div>
+                <div
+                  x-bind:class="open ? 'transform rotate-90' : ''"
+                  class="absolute h-5 w-0.5 bg-[#276ef1] transition-transform"
+                ></div>
                 <div class="h-0.5 w-5 bg-[#276ef1]"></div>
               </div>
             </div>
-            <p class="mb-4 mt-4">
+            <p
+              class="mb-4 mt-4"
+              x-show="open"
+              x-transition:enter="transition ease-out duration-300"
+              x-transition:enter-start="transform translate-y--10 opacity-0"
+              x-transition:enter-end="transform translate-y-0 opacity-100"
+              x-transition:leave="transition ease-in duration-300"
+              x-transition:leave-start="transform translate-y-0 opacity-100"
+              x-transition:leave-end="transform translate-y--10 opacity-0"
+            >
               Pellentesque in nisi aliquet, pellentesque purus eget, imperdiet
               turpis. Fusce at enim quis neque viverra convallis. Vivamus ut
               elementum leo, eget tempus nisl. Sed viverra enim ac turpis
@@ -1234,19 +1314,35 @@
           <!-- FAQ Item -->
           <div
             class="mb-6 border border-solid border-[#dfdfdf] p-8 lg:max-w-xl"
+            x-data="{ open: false }"
           >
-            <div class="flex cursor-pointer justify-between">
+            <div
+              class="flex cursor-pointer justify-between"
+              x-on:click.prevent="open = !open"
+            >
               <p class="text-xl font-bold">
                 How this theme is different from others in market?
               </p>
               <div
                 class="relative ml-10 mt-1 flex h-5 w-5 items-center justify-center"
               >
-                <div class="absolute h-5 w-0.5 bg-[#276ef1]"></div>
+                <div
+                  x-bind:class="open ? 'transform rotate-90' : ''"
+                  class="absolute h-5 w-0.5 bg-[#276ef1] transition-transform"
+                ></div>
                 <div class="h-0.5 w-5 bg-[#276ef1]"></div>
               </div>
             </div>
-            <p class="mb-4 mt-4">
+            <p
+              class="mb-4 mt-4"
+              x-show="open"
+              x-transition:enter="transition ease-out duration-300"
+              x-transition:enter-start="transform translate-y--10 opacity-0"
+              x-transition:enter-end="transform translate-y-0 opacity-100"
+              x-transition:leave="transition ease-in duration-300"
+              x-transition:leave-start="transform translate-y-0 opacity-100"
+              x-transition:leave-end="transform translate-y--10 opacity-0"
+            >
               Pellentesque in nisi aliquet, pellentesque purus eget, imperdiet
               turpis. Fusce at enim quis neque viverra convallis. Vivamus ut
               elementum leo, eget tempus nisl. Sed viverra enim ac turpis

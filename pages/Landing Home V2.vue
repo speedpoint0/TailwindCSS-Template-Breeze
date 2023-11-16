@@ -1306,7 +1306,10 @@
               <div
                 class="relative ml-10 mt-1 flex h-5 w-5 items-center justify-center"
               >
-                <div class="absolute h-5 w-0.5 bg-[#276ef1]"></div>
+                <div
+                  x-bind:class="open ? 'transform rotate-90' : ''"
+                  class="absolute h-5 w-0.5 bg-[#276ef1] transition-transform"
+                ></div>
                 <div class="h-0.5 w-5 bg-[#276ef1]"></div>
               </div>
             </div>
@@ -1328,6 +1331,7 @@
               turpis.
             </p>
           </div>
+
           <!-- FAQ Item -->
           <div
             class="mb-6 max-w-4xl border-b-[2px] border-[#dfdfdf] p-8"
@@ -1343,7 +1347,10 @@
               <div
                 class="relative ml-10 mt-1 flex h-5 w-5 items-center justify-center"
               >
-                <div class="absolute h-5 w-0.5 bg-[#276ef1]"></div>
+                <div
+                  x-bind:class="open ? 'transform rotate-90' : ''"
+                  class="absolute h-5 w-0.5 bg-[#276ef1] transition-transform"
+                ></div>
                 <div class="h-0.5 w-5 bg-[#276ef1]"></div>
               </div>
             </div>
@@ -1380,7 +1387,10 @@
               <div
                 class="relative ml-10 mt-1 flex h-5 w-5 items-center justify-center"
               >
-                <div class="absolute h-5 w-0.5 bg-[#276ef1]"></div>
+                <div
+                  x-bind:class="open ? 'transform rotate-90' : ''"
+                  class="absolute h-5 w-0.5 bg-[#276ef1] transition-transform"
+                ></div>
                 <div class="h-0.5 w-5 bg-[#276ef1]"></div>
               </div>
             </div>
@@ -1415,7 +1425,10 @@
               <div
                 class="relative ml-10 mt-1 flex h-5 w-5 items-center justify-center"
               >
-                <div class="absolute h-5 w-0.5 bg-[#276ef1]"></div>
+                <div
+                  x-bind:class="open ? 'transform rotate-90' : ''"
+                  class="absolute h-5 w-0.5 bg-[#276ef1] transition-transform"
+                ></div>
                 <div class="h-0.5 w-5 bg-[#276ef1]"></div>
               </div>
             </div>

@@ -816,19 +816,35 @@
           <!-- FAQ Item -->
           <div
             class="mb-6 max-w-4xl border border-solid border-[#dfdfdf] bg-[#f2f2f7] p-8"
+            x-data="{ open: false }"
           >
-            <div class="flex cursor-pointer justify-between">
+            <div
+              class="flex cursor-pointer justify-between lg:w-[830px] md:w-[630px]"
+              x-on:click.prevent="open = !open"
+            >
               <p class="text-xl font-bold">
                 How this theme is different from others in market?
               </p>
               <div
                 class="relative ml-10 mt-1 flex h-5 w-5 items-center justify-center"
               >
-                <div class="absolute h-5 w-0.5 bg-[#276ef1]"></div>
+                <div
+                  x-bind:class="open ? 'transform rotate-90' : ''"
+                  class="absolute h-5 w-0.5 bg-[#276ef1] transition-transform"
+                ></div>
                 <div class="h-0.5 w-5 bg-[#276ef1]"></div>
               </div>
             </div>
-            <p class="mb-4">
+            <p
+              class="my-4"
+              x-show="open"
+              x-transition:enter="transition ease-out duration-300"
+              x-transition:enter-start="transform translate-y--10 opacity-0"
+              x-transition:enter-end="transform translate-y-0 opacity-100"
+              x-transition:leave="transition ease-in duration-300"
+              x-transition:leave-start="transform translate-y-0 opacity-100"
+              x-transition:leave-end="transform translate-y--10 opacity-0"
+            >
               Pellentesque in nisi aliquet, pellentesque purus eget, imperdiet
               turpis. Fusce at enim quis neque viverra convallis. Vivamus ut
               elementum leo, eget tempus nisl. Sed viverra enim ac turpis
@@ -837,22 +853,39 @@
               turpis.
             </p>
           </div>
+
           <!-- FAQ Item -->
           <div
             class="mb-6 max-w-4xl border border-solid border-[#dfdfdf] bg-[#f2f2f7] p-8"
+            x-data="{ open: false }"
           >
-            <div class="flex cursor-pointer justify-between">
+            <div
+              class="flex cursor-pointer justify-between lg:w-[830px] md:w-[630px]"
+              x-on:click.prevent="open = !open"
+            >
               <p class="text-xl font-bold">
                 What is your policy on distributon of Flowspark assets?
               </p>
               <div
                 class="relative ml-10 mt-1 flex h-5 w-5 items-center justify-center"
               >
-                <div class="absolute h-5 w-0.5 bg-[#276ef1]"></div>
+                <div
+                  x-bind:class="open ? 'transform rotate-90' : ''"
+                  class="absolute h-5 w-0.5 bg-[#276ef1] transition-transform"
+                ></div>
                 <div class="h-0.5 w-5 bg-[#276ef1]"></div>
               </div>
             </div>
-            <p class="mb-4">
+            <p
+              class="my-4"
+              x-show="open"
+              x-transition:enter="transition ease-out duration-300"
+              x-transition:enter-start="transform translate-y--10 opacity-0"
+              x-transition:enter-end="transform translate-y-0 opacity-100"
+              x-transition:leave="transition ease-in duration-300"
+              x-transition:leave-start="transform translate-y-0 opacity-100"
+              x-transition:leave-end="transform translate-y--10 opacity-0"
+            >
               Pellentesque in nisi aliquet, pellentesque purus eget, imperdiet
               turpis. Fusce at enim quis neque viverra convallis. Vivamus ut
               elementum leo, eget tempus nisl. Sed viverra enim ac turpis
@@ -864,19 +897,35 @@
           <!-- FAQ Item -->
           <div
             class="mb-6 max-w-4xl border border-solid border-[#dfdfdf] bg-[#f2f2f7] p-8"
+            x-data="{ open: false }"
           >
-            <div class="flex cursor-pointer justify-between">
+            <div
+              class="flex cursor-pointer justify-between lg:w-[830px] md:w-[630px]"
+              x-on:click.prevent="open = !open"
+            >
               <p class="text-xl font-bold">
                 How can I contribute to Flowspark?
               </p>
               <div
                 class="relative ml-10 mt-1 flex h-5 w-5 items-center justify-center"
               >
-                <div class="absolute h-5 w-0.5 bg-[#276ef1]"></div>
+                <div
+                  x-bind:class="open ? 'transform rotate-90' : ''"
+                  class="absolute h-5 w-0.5 bg-[#276ef1] transition-transform"
+                ></div>
                 <div class="h-0.5 w-5 bg-[#276ef1]"></div>
               </div>
             </div>
-            <p class="mb-4">
+            <p
+              class="my-4"
+              x-show="open"
+              x-transition:enter="transition ease-out duration-300"
+              x-transition:enter-start="transform translate-y--10 opacity-0"
+              x-transition:enter-end="transform translate-y-0 opacity-100"
+              x-transition:leave="transition ease-in duration-300"
+              x-transition:leave-start="transform translate-y-0 opacity-100"
+              x-transition:leave-end="transform translate-y--10 opacity-0"
+            >
               Pellentesque in nisi aliquet, pellentesque purus eget, imperdiet
               turpis. Fusce at enim quis neque viverra convallis. Vivamus ut
               elementum leo, eget tempus nisl. Sed viverra enim ac turpis
@@ -888,17 +937,33 @@
           <!-- FAQ Item -->
           <div
             class="mb-6 max-w-4xl border border-solid border-[#dfdfdf] bg-[#f2f2f7] p-8"
+            x-data="{ open: false }"
           >
-            <div class="flex cursor-pointer justify-between">
+            <div
+              class="flex cursor-pointer justify-between lg:w-[830px] md:w-[630px]"
+              x-on:click.prevent="open = !open"
+            >
               <p class="text-xl font-bold">What other themes do you have?</p>
               <div
                 class="relative ml-10 mt-1 flex h-5 w-5 items-center justify-center"
               >
-                <div class="absolute h-5 w-0.5 bg-[#276ef1]"></div>
+                <div
+                  x-bind:class="open ? 'transform rotate-90' : ''"
+                  class="absolute h-5 w-0.5 bg-[#276ef1] transition-transform"
+                ></div>
                 <div class="h-0.5 w-5 bg-[#276ef1]"></div>
               </div>
             </div>
-            <p class="mb-4">
+            <p
+              class="my-4"
+              x-show="open"
+              x-transition:enter="transition ease-out duration-300"
+              x-transition:enter-start="transform translate-y--10 opacity-0"
+              x-transition:enter-end="transform translate-y-0 opacity-100"
+              x-transition:leave="transition ease-in duration-300"
+              x-transition:leave-start="transform translate-y-0 opacity-100"
+              x-transition:leave-end="transform translate-y--10 opacity-0"
+            >
               Pellentesque in nisi aliquet, pellentesque purus eget, imperdiet
               turpis. Fusce at enim quis neque viverra convallis. Vivamus ut
               elementum leo, eget tempus nisl. Sed viverra enim ac turpis
