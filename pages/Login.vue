@@ -189,6 +189,11 @@
                 class="font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:bg-gray-50 lg:hover:text-gray-800"
                 >Blog</a
               >
+              <a
+                href="https://tailwind-css-template-breeze.vercel.app/Pricing"
+                class="font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:bg-gray-50 lg:hover:text-gray-800"
+                >Pricing</a
+              >
             </div>
             <!-- MENU CONTENT 2 -->
             <div
