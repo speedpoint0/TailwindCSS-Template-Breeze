@@ -1,8 +1,8 @@
 <template>
-  <div class="overflow-hidden">
-    <!-- NAVBAR -->
+  <div class="relative">
+    <!-- Navbar Dropdown 1 row -->
     <nav
-      class="font-inter mx-auto h-auto w-full max-w-[1600px] lg:relative lg:top-0"
+      class="font-inter mx-auto h-auto w-full lg:sticky top-0 z-20 bg-[#fff]"
       x-data="{isOpen: false, menuOne:false}"
     >
       <!-- CONTAINER -->
@@ -264,7 +264,7 @@
     <header>
       <!-- Hero Container -->
       <div
-        class="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24 lg:py-32"
+        class="mx-auto w-full max-w-7xl px-5 pb-16 md:px-10 md:pb-24 lg:pb-32"
         data-aos="fade-up"
         data-aos-duration="900"
       >
