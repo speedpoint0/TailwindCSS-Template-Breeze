@@ -264,7 +264,7 @@
     <header>
       <!-- Hero Container -->
       <div
-        class="mx-auto w-full max-w-7xl px-5 pb-16 md:px-10 md:pb-24 lg:pb-32"
+        class="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24"
         data-aos="fade-up"
         data-aos-duration="900"
       >
